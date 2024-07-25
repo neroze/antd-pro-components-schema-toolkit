@@ -107,7 +107,7 @@ const columns = [
             message: 'PORT is required',
           },
           {
-            validator: (_, value: any) => {
+            validator: (_:any, value: any) => {
               if (value <= 2999) {
                 return Promise.reject(
                   'Port number should be greater than 2999'

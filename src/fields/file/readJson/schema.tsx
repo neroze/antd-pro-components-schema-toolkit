@@ -2,7 +2,8 @@ const columns = [
   {
     title: 'Upload File',
     dataIndex: 'certificate',
-    renderFormItem: (a, b, form: any) =>
+    //@ts-ignore
+    renderFormItem: (a:any, b:any, form: any) =>
       //@ts-ignore
       renderFileUpload({
         isMultiple: false,
