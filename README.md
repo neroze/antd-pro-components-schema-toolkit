@@ -6,4 +6,4 @@
 - Ready to go
 - Cheers
 
-Demo:
+Demo: https://neroze.github.io/antd-pro-components-schema-toolkit/
