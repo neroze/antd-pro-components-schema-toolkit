@@ -12,4 +12,5 @@ export default defineConfig({
       },
     },
   },
+  base: '/antd-pro-components-schema-toolkit/'
 });

@@ -10,6 +10,8 @@ import ConditionalRender from './fields/conditionalRender';
 import ReadJson from './fields/file/readJson';
 import UploadFile from './fields/file/upload';
 import DatePicker from './fields/datePicker';
+import TriggerButton from './fields/button';
+
 
 import 'antd/dist/antd.variable.min.css';
 
@@ -126,6 +128,11 @@ function App() {
         <Collapse>
           <Panel header="Date Picker" key="11">
             <DatePicker />
+          </Panel>
+        </Collapse>
+        <Collapse>
+          <Panel header="Trigger Button" key="12">
+            <TriggerButton />
           </Panel>
         </Collapse>
       </Content>
